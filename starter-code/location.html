@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Art gallery website</title>
+</head>
+<body>
+  <section class="location-map">
+    <div class="back-button-container">
+      <a href="index.html" class="cta-btn back-btn">
+        <span class="cta-arrow">
+          <img src="./assets/icon-arrow-left.svg" alt="">
+        </span>
+        <span class="cta-text">BACK TO HOME</span>
+      </a>
+    </div>
+    <div class="map-image">
+      <picture>
+        <source media="(max-width: 1024px) and (min-width: 768px)" srcset="./assets/tablet/image-map.png">
+        <source media="(max-width: 767px)" srcset="./assets/mobile/image-map.png">
+        <img src="./assets/desktop/image-map.png" alt="Map of Newport showing gallery location">
+      </picture>
+    </div>
+  </section>
+
+  <section class="location-details">
+    <div class="location-details-container">
+      <h1>OUR LOCATION</h1>
+      
+      <div class="location-address">
+        <p class="street-address">99 KING STREET</p>
+        <p>Newport</p>
+        <p>RI 02840</p>
+        <p>United States of America</p>
+        
+        <p class="location-description">
+          Our newly opened gallery is located near the Edward King House on 99 King 
+          Street, the Modern Art Gallery is free to all visitors and open seven days 
+          a week from 8am to 9pm.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="location-footer">
+    <div class="footerBox">
+      <div class="footerBrand">
+        <h3>MODERN<br>ART GALLERY</h3>
+      </div>
+
+      <div class="footerParagraph">
+        <p>
+          The Modern Art Gallery is free to all visitors and open seven days a week 
+          from 8am to 9pm. Find us at 99 King Street, Newport, USA.
+        </p>
+      </div>
+
+      <div class="footerSocials">
+        <a href="#" aria-label="Facebook">
+          <img src="./assets/icon-facebook.svg" alt="Facebook">
+        </a>
+        <a href="#" aria-label="Instagram">
+          <img src="./assets/icon-instagram.svg" alt="Instagram">
+        </a>
+        <a href="#" aria-label="Twitter">
+          <img src="./assets/icon-twitter.svg" alt="Twitter">
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
