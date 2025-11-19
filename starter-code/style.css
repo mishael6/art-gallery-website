@@ -174,7 +174,6 @@ body {
   display: block;
 }
 
-/* BIG left image spans 2 rows? → No, only first row in your screenshot */
 .big-image {
   grid-column: 1; 
   grid-row: 1 / span 2;
