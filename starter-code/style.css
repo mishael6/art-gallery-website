@@ -395,8 +395,6 @@ footer {
   .hero-right {
     margin-top: 3rem;
     width: 460px;
-    /*padding: 60px 40px 60px 80px;
-    margin-left: -60px;*/
   }
 
   .hero-right p {
@@ -450,7 +448,8 @@ footer {
 
   /* Location Page - Tablet */
   .back-button-container {
-    padding: 30px;
+    position: absolute;
+    left: 10%;
   }
 
   .map-image {
@@ -477,59 +476,6 @@ footer {
 /* MOBILE MEDIA QUERIES */
 @media (max-width: 767px) {
   /* Hero Section - Mobile */
-  /*.hero {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    position: relative;
-  }
-
-  .hero-image {
-    width: 100%;
-    height: 240px;
-    background-image: url('./assets/mobile/image-hero.jpg');
-    background-size: cover;
-    background-position: center;
-    order: 1;
-  }
-
-  .hero-left {
-   /* background: black;
-    color: white;
-    padding: 48px 32px;
-    margin: 0;
-    order: 2;
-    position: relative;
-    z-index: 1;*/
-    /*background-color: transparent;
-    color: black;
-    position: absolute;
-    top: 50%;
-  }
-
-  .hero-left h1 {
-    font-size: 3.5rem;
-    line-height: 1;
-    letter-spacing: 0;
-    text-align: left;
-  }
-
-  .hero-right {
-    background: white;
-    padding: 48px 32px;
-    margin: 0;
-    order: 3;
-    position: relative;
-    z-index: 1;
-    box-shadow: none;
-  }
-
-  .hero-right p {
-    font-size: 1rem;
-    margin-bottom: 32px;
-  }
-
   /* Button - Mobile */
   .cta-btn {
     width: 100%;
@@ -572,16 +518,14 @@ footer {
   /* TITLE SECTION */
   .title {
     color: black;
-    /*padding: 2rem 1.5rem 1rem;*/
-    /*border: 1px solid red;
-    position: sticky;
+    margin-top: 5rem;
     top: 100%;
     left: 0;
-    bottom: 0;*/
+    bottom: 0;
   }
 
   .title h1 {
-    font-size: 3.8rem;
+    font-size: 3.3rem;
     line-height: 1.1;
     font-weight: 800;
   }
@@ -591,14 +535,15 @@ footer {
     /*padding: 0 1.5rem 2rem;*/
     width: auto;
     position: absolute;
-    top: 75%;
-    left: 8%;
+    top: 85%;
+    left: 5%;
   }
 
   .hero-right p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #555;
     line-height: 1.6;
+    margin-top: 2rem;
     margin-bottom: 2rem;
   }
 
@@ -631,6 +576,7 @@ footer {
   }
 
   .image-grid-1 img {
+    margin-top: 10rem;
     width: 100%;
     display: block;
   }
@@ -725,8 +671,13 @@ footer {
   }
 
   /* Location Page - Mobile */
+  .location-map {
+    position: relative;
+  }
+
   .back-button-container {
-    padding: 24px 16px;
+    position: absolute;
+    left: 0;
   }
 
   .map-image {
